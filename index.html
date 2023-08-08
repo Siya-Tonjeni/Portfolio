@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Siyamtanda Tonjeni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8631d2eceb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- ---------------------------------Home------------------------------------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img class="logo" src="images/logo-3.png" alt="my-logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>Hello,  <br />I'm <span>Siyamtanda</span> Tonjeni,
+           <ul class="dynamic-txts">
+            <li><span>{Developer}</span></li>
+            <li><span>{Creative}</span></li>
+            <li><span>{Ambitious}</span></li>
+          </ul></h1>
+        </div>
+      </div>
+    </div>
+<!-- ---------------------------------About------------------------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.jpg" alt="my-picture">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I consider myself as a well-organized person, problem solver, and
+              some may say I am OCD but I have a high attention to detail.
+              Since beginning my journey as a programmer, I started with back-end
+              programming and now I have a lot of interest in the entire frontend
+              spectrum, allows me to explore my creative side. During my learning
+              process, I have come to enjoy self learning and still spend time
+              developing responsive websites. I am always in the lookout for
+              excitement and inspiration. I seek for professional development
+              and I am very proactive person with a sense of responsibility.
+              I am open to opportunities where I can learn, grow and contribute. If you have
+            a good opportunity that matches my skills and expierience, please do contact me.
+          <a href="#contact" class="btn">Contact Me</a></p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+
+              <!-- --------Skills-------- -->
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br/>Designing Web/App interfaces</li>
+                  <li><span>Web Development</span><br/>Web app development</li>
+                  <li><span>Digital Marketing</span><br/>Online marketing using digital communication</li>
+                </ul>
+              </div>
+
+              <!-- --------Experience-------- -->
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2022 - 2023</span><br/>Digital Marketing and Website Intern</li>
+                  <li><span>2020 - 2021</span><br/>Brand Designer</li>
+                </ul>
+              </div>
+
+              <!-- --------Education-------- -->
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2023</span><br/>Web Development Bootcamp</li>
+                  <li><span>2023</span><br/>Diploma in ICT: Application Development</li>
+                  <li><span>2017</span><br/>High Certificate in Information Communication and Technology</li>
+                  <li><span>2015</span><br/>Matric Certificate</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ---------------------------------Portfolio------------------------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="fant-prototype-website">
+            <div class="layer">
+              <h3>Product Prototype Website</h3>
+              <p>A creative prototype website for Fanta. It showcases the different types
+              of flavour and sizes the product comes in.</p>
+                <a href="https://www.figma.cohttps://www.figma.com/proto/QTTQZrahH595LtvOIuPLYs/Fanta?type=design&node-id=23-45&scaling=scale-down&page-id=0%3A1&starting-point-node-id=23%3A106&show-proto-sidebar=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="tindog-app-website">
+            <div class="layer">
+              <h3> App Website</h3>
+              <p>This is a website that showcases the Tindog App that people can get. It provides with
+                   information about the app.</p>
+                <a href="https://siya-tonjeni.github.io/TinDog-Website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="e-commerce-mobile-app">
+            <div class="layer">
+              <h3>E-Commerce Mobile App</h3>
+              <p>A prototype appication for e-commerce business. This is app is good for
+                fashion and home businesses.</p>
+                <a href="https://www.figma.com/proto/tLTIqZKFAi2LIFBe96nR0B/E-Commerce-Mobile-App?type=design&node-id=38-507&t=lk2IXwaLo2kSGrCp-0&scaling=scale-down&page-id=0%3A1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-4.png" alt="educational-app-prototype">
+            <div class="layer">
+              <h3>Educational Mobile App Prototype</h3>
+              <p>I desigined an e-learning prototype for a client. This platform is for on-demanding
+              online courses to choose from any topics, skill levels and languages. </p>
+                <a href="https://marvelapp.com/prototype/86f9aj6"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="projects.html" class="btn">See More</a>
+      </div>
+    </div>
+
+
+
+    <!-- ---------------------------------Contact------------------------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>stonjeni13@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>0744332374</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <a href="files/my-resume.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Name" required>
+              <input type="email" name="Email" placeholder="Email Address" required>
+              <textarea name="Message" rows="6" placeholder="Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ 2023. Made by Siyamtanda Tonjeni</p>
+      </div>
+    </div>
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz4IHPs8dcAeL-jBWxAkbfJd7gzU2bKkV8H9xK_xqHDrznVUejzTLpg0kZdwkeYNHsDaQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Successfully Submitted"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script src="script.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+<!-- Slide show portfolio (needs work)
+<div id="portfolio">
+  <h1 class="sub-title">My Work</h1>
+  <div class="container">
+    <div class="item" style="background-image:url(images/work-1.png);">
+      <div class="content">
+        <div class="name">Product Prototype Website</div>
+        <div class="des">A creative prototype website for Fanta. It showcases the different types
+        of flavour and sizes the product comes in.</div>
+        <button>See More</button>
+      </div>
+    </div>
+    <div class="item" style="background-image:url(images/work-2.png);">
+      <div class="content">
+        <div class="name">Product Prototype Website</div>
+        <div class="des">A creative prototype website for Fanta. It showcases the different types
+        of flavour and sizes the product comes in.</div>
+        <button>See More</button>
+      </div>
+    </div>
+    <div class="item" style="background-image:url(images/work-3.png);">
+      <div class="content">
+        <div class="name">Product Prototype Website</div>
+        <div class="des">A creative prototype website for Fanta. It showcases the different types
+        of flavour and sizes the product comes in.</div>
+        <button>See More</button>
+      </div>
+    </div>
+    <div class="item" style="background-image:url(images/work-4.png);">
+      <div class="content">
+        <div class="name">Product Prototype Website</div>
+        <div class="des">A creative prototype website for Fanta. It showcases the different types
+        of flavour and sizes the product comes in.</div>
+        <button>See More</button>
+      </div>
+    </div>
+    <div class="item" style="background-image:url(images/calendar.png);">
+      <div class="content">
+        <div class="name">Product Prototype Website</div>
+        <div class="des">A creative prototype website for Fanta. It showcases the different types
+        of flavour and sizes the product comes in.</div>
+        <button>See More</button>
+      </div>
+    </div>
+    <div class="item" style="background-image:url(images/me.jpg);">
+      <div class="content">
+        <div class="name">Product Prototype Website</div>
+        <div class="des">A creative prototype website for Fanta. It showcases the different types
+        of flavour and sizes the product comes in.</div>
+        <button>See More</button>
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+      <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+  </div>
+</div> -->
